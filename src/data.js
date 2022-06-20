@@ -1,0 +1,87 @@
+export let products = [
+  {
+    id: 1,
+    name: "federic neitschie",
+    description: "philosopher from genermen",
+    price: 1832,
+    image:
+      "data:image/jpeg;base64,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",
+  },
+  {
+    id: 2,
+    name: "Socrates",
+    price: 328,
+    description: "a Greek philosopher from Athens",
+    image:
+      "https://www.jeroenseynhaeve.com/wp-content/uploads/socrates-768x1024.jpg",
+  },
+  {
+    id: 3,
+    name: "Galileo Galilei",
+    description:
+      "an Italian astronomer, physicist and engineer, sometimes described as a polymath",
+    price: 2832,
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Justus_Sustermans_-_Portrait_of_Galileo_Galilei%2C_1636.jpg/472px-Justus_Sustermans_-_Portrait_of_Galileo_Galilei%2C_1636.jpg",
+  },
+  {
+    id: 4,
+    name: "Immanuel Kant",
+    price: 1892,
+    description:
+      "German philosopher and one of the central Enlightenment thinkers",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Kant_gemaelde_3.jpg/220px-Kant_gemaelde_3.jpg",
+  },
+  {
+    id: 5,
+    name: "John Stuart Mill",
+    price: 1832,
+    description:
+      "an English philosopher, political economist, Member of Parliament (MP) and civil servant.",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/John_Stuart_Mill_by_London_Stereoscopic_Company%2C_c1870.jpg/220px-John_Stuart_Mill_by_London_Stereoscopic_Company%2C_c1870.jpg",
+  },
+  {
+    id: 6,
+    name: "Nikola Tesla",
+    description:
+      "a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist",
+    price: 9832,
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tesla_circa_1890.jpeg/220px-Tesla_circa_1890.jpeg",
+  },
+  {
+    id: 7,
+    name: "René Descartes",
+    price: 1802,
+    description:
+      "René Descartes was a French philosopher, mathematician, scientist and lay Catholic",
+    image: "https://plato.stanford.edu/entries/descartes/descartes.jpg",
+  },
+  {
+    id: 8,
+    name: "Niccolò Machiavelli",
+    description: "political philosopher and statesman",
+    image:
+      "https://cdn.britannica.com/27/94127-050-836E9D81/Niccolo-Machiavelli-oil-canvas-Santi-di-Tito.jpg",
+  },
+  {
+    id: 9,
+    name: "Karl Marx",
+    description:
+      "a German philosopher, critic of political economy, economist, historian",
+    price: 832,
+    image:
+      "https://www.marxist.com/images/stories/books/Karl_Marx_Image_public_domain.jpg",
+  },
+  {
+    id: 10,
+    name: "Adam Smith",
+    description:
+      "economist and philosopher who was a pioneer of political economy and key figure during the Scottish Enlightenment",
+    price: 830,
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Adam_Smith_The_Muir_portrait.jpg/220px-Adam_Smith_The_Muir_portrait.jpg",
+  },
+];
